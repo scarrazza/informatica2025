@@ -15,19 +15,7 @@ Per poter utilizzare le macchine del laboratorio di calcolo del Dipartimento di 
 
 -----
 
-### 💻 Esercizio 2: Configurazione dell'ambiente di sviluppo
-
-In questo corso utilizzeremo l'editor di testo **Visual Studio Code** (code), già installato sulle macchine del laboratorio. È uno strumento potente e flessibile per scrivere codice.
-
-Se vuoi installarlo sul tuo computer personale, puoi seguire le istruzioni ai seguenti link:
-
-  * [Download principale](https://code.visualstudio.com/)
-  * [Installazione su Windows](https://code.visualstudio.com/docs/setup/windows)
-  * [Installazione su macOS](https://code.visualstudio.com/docs/setup/mac)
-
------
-
-### ⌨️ Esercizio 3: Il terminale e i comandi Bash
+### ⌨️ Esercizio 2: Il terminale e i comandi Bash
 
 Per interagire con il sistema operativo in modo efficiente, impareremo a usare il **terminale**. Questo programma ci permette di eseguire comandi usando un linguaggio chiamato **Bash** (Bourne-Again SHell), uno dei più popolari e potenti.
 
@@ -53,7 +41,7 @@ Crea un **alias** per il comando `ls -l` in modo da non doverlo digitare ogni vo
 
 -----
 
-### 📂 Esercizio 4: Navigazione e gestione del file system
+### 📂 Esercizio 3: Navigazione e gestione del file system
 
 Il **file system** è la struttura che organizza i file e le cartelle (chiamate anche directories) sul disco fisso. La directory principale, chiamata **root**, è indicata con il simbolo `/`. Al suo interno si trovano le sottocartelle del sistema come `/home/`, `/usr/`, `/bin/`, ecc.
 
@@ -90,7 +78,7 @@ Il risultato dovrebbe essere:
 
 -----
 
-### 📝 Esercizio 5: Copiare e spostare file
+### 📝 Esercizio 4: Copiare e spostare file
 
 Ora che sai come creare file e cartelle, vediamo come gestirli.
 
@@ -131,7 +119,7 @@ Ora che hai terminato, è il momento di pulire e riordinare lo spazio di lavoro.
 
 -----
 
-### ✍️ Esercizio 6: Utilizzare un editor di testo
+### ✍️ Esercizio 5: Utilizzare un editor di testo
 
 Gli editor di testo sono essenziali per scrivere e modificare codice. Su Linux, esistono molti editor, e ognuno ha le sue specificità.
 
@@ -164,7 +152,7 @@ Gli editor di testo sono essenziali per scrivere e modificare codice. Su Linux, 
 
 -----
 
-### 🌐 Esercizio 7: Accesso remoto (ssh) e copia di file (scp)
+### 🌐 Esercizio 6: Accesso remoto (ssh) e copia di file (scp)
 
 Lavorare da remoto è una pratica comune. Impareremo a usare i comandi `ssh` e `scp` per connetterci alle macchine del laboratorio dal tuo computer e viceversa.
 
