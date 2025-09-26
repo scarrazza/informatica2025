@@ -152,7 +152,7 @@ Gli editor di testo sono essenziali per scrivere e modificare codice. Su Linux, 
 
 -----
 
-### 🌐 Esercizio 6: Accesso remoto (ssh) e copia di file (scp)
+### 🌐 Esercizio 6 (Opzional da casa): Accesso remoto (ssh) e copia di file (scp)
 
 Lavorare da remoto è una pratica comune. Impareremo a usare i comandi `ssh` e `scp` per connetterci alle macchine del laboratorio dal tuo computer e viceversa.
 
