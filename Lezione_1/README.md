@@ -1,4 +1,4 @@
-# 💻 Laboratorio di informatica 1
+# 💻 Laboratorio di Informatica 1
 
 ### Prof. Stefano Carrazza - Corso C
 
