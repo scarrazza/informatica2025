@@ -99,6 +99,7 @@ Ora che sai come creare file e cartelle, vediamo come gestirli.
   * Posizionati nella cartella `corso_di_informatica/Lezione1` che hai creato prima.
   * Crea un file di testo chiamato `temp.txt`.
   * Copia il file `temp.txt` nella cartella `corso_di_informatica`.
+  * Posizionati nella cartella `corso_di_informatica`.
   * Rinomina `temp.txt` in `README.md` usando il comando `mv`.
   * Sposta il file `README.md` nella cartella `Lezione1`.
   * Elimina il file `temp.txt` (che si trova ancora nella cartella `Lezione1`) e verifica che tutto sia a posto.
