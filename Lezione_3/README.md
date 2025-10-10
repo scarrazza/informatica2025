@@ -95,7 +95,7 @@ Estendi l'esercizio precedente per salvare l'output su un file, introducendo il 
 
 1.  Crea una copia del programma dell'Esercizio 3.
 2.  Usa `fstream` per creare e aprire un nuovo file chiamato `risultato.dat`.
-3.  Dopo aver verificato che il file sia stato aperto correttamente (con `good()`), scrivi l'output su questo file, oltre che su schermo.
+3.  Dopo aver verificato che il file sia stato aperto correttamente (con `is_open()`), scrivi l'output su questo file, oltre che su schermo.
 4.  Chiudi il file alla fine del programma con `close()`.
 
 -----
