@@ -113,9 +113,9 @@ La distribuzione in questione si presenta graficamente nel modo seguente:
 1.  **Download Dati:** Scaricare il file dei dati:
 
     ```bash
-    wget https://raw.githubusercontent.com/scarrazza/informatica2021/master/Lezione_6/data_higgs.dat
+    wget https://raw.githubusercontent.com/scarrazza/informatica2025/master/Lezione_6/data_higgs.dat
     # oppure con
-    curl -o data_higgs.dat https://raw.githubusercontent.com/scarrazza/informatica2021/master/Lezione_6/data_higgs.dat
+    curl -o data_higgs.dat https://raw.githubusercontent.com/scarrazza/informatica2025/master/Lezione_6/data_higgs.dat
     ```
 
 2.  **Lettura Dati:** Leggere tutti gli $N = 10000$ valori di massa invariante e salvarli in un array dinamico `mass` di tipo `double`.
