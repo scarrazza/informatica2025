@@ -63,7 +63,7 @@ Scrivere un programma in C++ che utilizza diverse funzioni per l'analisi e la ma
 
 -----
 
-### 📐 Esercizio 3: Integrazione Numerica
+### 📐 Esercizio 3 - Integrazione Numerica
 
 Scrivere un programma in C++ per calcolare l'integrale definito di una funzione analitica (la funzione Gaussiana) utilizzando la **Regola dei Trapezi**.
 
