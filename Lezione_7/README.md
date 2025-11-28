@@ -69,17 +69,17 @@ Scrivere un programma in C++ per calcolare l'integrale definito di una funzione 
 
 La formula della Regola dei Trapezi è:
 
-$$
+```math
 \int_a^b f(x) \, dx \approx d \cdot \sum_{i=0}^{n-1} \frac{f(a + i \cdot d) + f(a + (i + 1) \cdot d)}{2}
-$$
+```
 dove l'ampiezza di ogni intervallo è data da $d = \frac{b-a}{n}$ e $n$ è il numero di *steps*.
 
 1.  **Funzione Gaussiana:** Implementare una funzione `gauss` di tipo `double` che accetta $x$ come argomento e restituisce il valore di una Funzione Gaussiana normalizzata, centrata in $\mu=0$ e con deviazione standard $\sigma=1$:
 
-      $$
-      \text{gauss}(x) = \frac{1}{\sqrt{2\pi}} \cdot e^{-x^2/2}
-      $$
-      **Suggerimento:** includere l'header `<cmath>` per `sqrt`, `exp` e per la costante $\pi$ (spesso disponibile come `M_PI` se sono attivate estensioni POSIX o si definisce l'header `_USE_MATH_DEFINES` prima di includere `<cmath>`).
+```math
+\text{gauss}(x) = \frac{1}{\sqrt{2\pi}} \cdot e^{-x^2/2}
+```
+**Suggerimento:** includere l'header `<cmath>` per `sqrt`, `exp` e per la costante $\pi$ (spesso disponibile come `M_PI` se sono attivate estensioni POSIX o si definisce l'header `_USE_MATH_DEFINES` prima di includere `<cmath>`).
 
 2.  **Integrazione:** Implementare una funzione `integrate_gaussian` di tipo `double` che prende come argomenti i limiti di integrazione `a` e `b`, e il numero di *steps* `n`. La funzione deve calcolare e restituire l'integrale numerico della funzione `gauss` tra $a$ e $b$ utilizzando la formula dei trapezi.
 
@@ -106,8 +106,9 @@ Scrivere un programma in C++ che determina se un punto con coordinate cartesiane
 
       * Passare come argomenti le quattro coordinate.
       * **Suggerimento:** Utilizzare il Teorema di Pitagora, dove i cateti sono le differenze in ascissa e ordinata. La formula è:
-        $$\text{distanza} = \sqrt{(x - x_c)^2 + (y - y_c)^2}
-        $$
+```math
+\text{distanza} = \sqrt{(x - x_c)^2 + (y - y_c)^2}
+```
 
 3.  **Verifica del Cerchio:** Implementare una funzione `check_circle` di tipo `void` che prende come argomenti le coordinate $(x, y)$, il centro $(x_c, y_c)$, il raggio $r$, e una variabile `status` di tipo `bool` **passata per riferimento**.
 
@@ -142,15 +143,15 @@ Scrivere un programma in C++ per eseguire operazioni di algebra lineare su vetto
       * $W = \{10, 2, 4, 3, 2\}$
 
       Creare una matrice (array 2D) $M$ di tipo `double` e dimensione $3 \times 3$:
-      $$
-      M = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{pmatrix}
-      $$
+```math
+M = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{pmatrix}
+```
 
-2.  **Prodotto Scalare:** Implementare una funzione `scalar` di tipo `double` che accetta due array 1D e la loro dimensione, e restituisce il prodotto scalare tra di essi ($\sum V_i \cdot W_i$). Testare la funzione con $V$ e $W$ e stampare il risultato.
+3.  **Prodotto Scalare:** Implementare una funzione `scalar` di tipo `double` che accetta due array 1D e la loro dimensione, e restituisce il prodotto scalare tra di essi ($\sum V_i \cdot W_i$). Testare la funzione con $V$ e $W$ e stampare il risultato.
 
-3.  **Norma di un Vettore:** Implementare una funzione `norm` di tipo `double` che accetta un array 1D e la sua dimensione. La funzione deve calcolare la norma euclidea del vettore ($||V|| = \sqrt{V \cdot V}$) **riutilizzando** la funzione `scalar` per calcolare il prodotto scalare $V \cdot V$. Testare l'implementazione con $V$ e stampare il risultato.
+4.  **Norma di un Vettore:** Implementare una funzione `norm` di tipo `double` che accetta un array 1D e la sua dimensione. La funzione deve calcolare la norma euclidea del vettore ($||V|| = \sqrt{V \cdot V}$) **riutilizzando** la funzione `scalar` per calcolare il prodotto scalare $V \cdot V$. Testare l'implementazione con $V$ e stampare il risultato.
 
-4.  **Scambio per Riferimento:** Implementare una funzione `scambia` di tipo `void` che prende i valori di due oggetti e li scambia utilizzando il **passaggio per riferimento** (o un puntatore).
+5.  **Scambio per Riferimento:** Implementare una funzione `scambia` di tipo `void` che prende i valori di due oggetti e li scambia utilizzando il **passaggio per riferimento** (o un puntatore).
 
       * **Matrice Trasposta:** Applicare questa funzione alla matrice $M$ per calcolare la sua **matrice trasposta** ($M^T$), scambiando gli elementi $M_{i,j}$ con $M_{j,i}$.
       * Stampare il risultato della matrice trasposta su terminale.
@@ -179,8 +180,9 @@ Questi esercizi sono consigliati per coloro che hanno completato i precedenti e 
 
    -  Scrivere una funzione `mean` di tipo `double` che calcola la media aritmetica di un array 1D.
    -  Scrivere una funzione `covariance` di tipo `double` che calcola la covarianza tra due vettori $V$ e $W$ (assumendo che abbiano media nulla per semplicità, oppure calcolandola internamente).
-      $$
-      \text{Cov}(V, W) = \frac{1}{N-1} \sum_{i=1}^N (V_i - \bar{V})(W_i - \bar{W})
-      $$
-      dove $\bar{V}$ è la media di $V$.
+```math
+\text{Cov}(V, W) = \frac{1}{N-1} \sum_{i=1}^N (V_i - \bar{V})(W_i - \bar{W})
+```
+   dove $\bar{V}$ è la media di $V$.
+
    -  Implementare una funzione `correlation_matrix` che, data una matrice di dati $D$ di dimensione $N \times P$ (dove $N$ sono le osservazioni e $P$ le variabili), calcoli e stampi la sua matrice di correlazione $P \times P$.
